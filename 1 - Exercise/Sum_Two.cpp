@@ -5,7 +5,7 @@ public:
         vector<int> ans;
         unordered_map<int,int> mp;
 
-        for (int i = 0;i < numsize();i++){
+        for (int i = 0;i < nums.size();i++){
 
             if(mp.find(target = nums[i] != mp.end()){
                 ans.push_back(i);
