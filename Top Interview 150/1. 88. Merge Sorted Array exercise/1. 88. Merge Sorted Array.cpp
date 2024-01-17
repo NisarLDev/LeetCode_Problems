@@ -10,6 +10,12 @@ public:
             i--;
             k--;
         }
+        else
+        {
+            nums1[k]=nums[j];
+            j--;
+            k--;
+        }
       }  
     }
 };
