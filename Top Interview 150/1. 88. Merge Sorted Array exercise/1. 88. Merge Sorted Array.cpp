@@ -12,7 +12,7 @@ public:
         }
         else
         {
-            nums1[k]=nums[j];
+            nums1[k]=nums2[j];
             j--;
             k--;
         }
